@@ -1,12 +1,12 @@
 #!/usr/bin/python3
 """
-State class definition
+Amenity class definition
 """
 from models.base_model import BaseModel
 
 
-class State(BaseModel):
+class Amenity(BaseModel):
     """
-    State class that inherits from BaseModel
+    Amenity class that inherits from BaseModel
     """
     name = ""
